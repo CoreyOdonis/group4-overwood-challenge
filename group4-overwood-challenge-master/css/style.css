@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerfluid {
+    width: 100% !important;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2D2E79;
+    width: 100%;
+    color: #ffffff;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar-brand,
+.navbar-brand span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-brand span {
+    color: #F25094;
+}
+/** footer **/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ft-copyright {
+    background-color: #2D2E79;
+    border-top: 1px solid #121d6d;
+    display: flex;
+}
+
+footer.footer-section {
+    padding: 60px 0 0;
+    background-color: #395260;
+}
+
+.footer-section h3 span {
+    color: #F25094;
+}
+
+.bg-with-black {
+    position: relative;
+}
+
+.footer-top-section {
+    margin: 0 0 47px;
+}
+
+footer.footer-bottom-area {
+    padding: 60px 0 50px;
+    background-color: #2D2E79;
+}
+
+.single-fta>img {
+    margin: 0 0 7px;
+}
+
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.single-fta ul.fta-list li,
+.single-fta ul.fta-list li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.fta-title {
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+    font-size: 25px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+    color: #e5e5e5;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.fba-copyright p {
+    color: #aaaaaa;
+    line-height: 30px;
+}
+
+@media (max-width: 880px) {
+    .ft-copyright {
+        background-color: #2D2E79;
+        border-top: 1px solid #121d6d;
+        display: flex;
+    }
+
+    footer.footer-section {
+        padding: 60px 0 50px;
+        background-color: #395260;
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .fba-links ul li {
+        display: inline-block;
+        margin-left: 28px;
+        text-align: center;
+    }
+
+    .fba-links {
+        text-align: center;
+    }
+}
